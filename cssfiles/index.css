@@ -38,7 +38,6 @@ body {
   justify-self: stretch;
   grid-row: 1;
   grid-column: 2;
-  flex: 1;
   padding-right: 58px;
 }
 /* this is the h2 element itself */
