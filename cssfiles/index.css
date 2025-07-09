@@ -109,7 +109,6 @@ body {
   /* this changes where the grid items are in the grid box */
   justify-items: center; /*horizontal*/
   align-items: center; /*vertical*/
-  flex: 1 1;
 }
 
 .linksdiv {
@@ -205,7 +204,7 @@ span.gradtext {
     /* use media quieries as well */
     display: grid;
     /* rows / columns */
-    grid-template: 1fr 120px 90px repeat(9, 1fr) / 50fr 70% 50fr;
+    grid-template: 1fr 120px 110px repeat(9, 1fr) / 50fr 70% 50fr;
     width: 90vw;
     height: 85vh;
     /* min height is great to have */
@@ -238,12 +237,6 @@ span.gradtext {
     padding: 0;
   }
 
-  #about {
-    line-height: 1;
-    /* trbl */
-    margin: 0px 20px 40px 10px;
-    font-size: 31px;
-  }
   .aboutdiv {
     grid-column: 2;
     grid-row: 3;
@@ -254,12 +247,18 @@ span.gradtext {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     /* grid box stuff */
     align-self: stretch;
     justify-self: stretch;
 
-    margin: 0;
+    /* margin: 0; */
+  }
+  #about {
+    line-height: 1;
+    /* trbl */
+    margin: 0px 20px 0px 10px;
+    font-size: 31px;
   }
   /* make fontsize smaller */
   .linksdivcontent h3 {
@@ -289,7 +288,7 @@ span.gradtext {
   #about {
     line-height: 1;
     /* trbl */
-    margin: 30px 20px 60px 10px;
+    /* margin: 30px 20px 60px 10px; */
     font-size: 31px;
   }
 }
