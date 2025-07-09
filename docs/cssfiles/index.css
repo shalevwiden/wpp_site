@@ -100,7 +100,9 @@ body {
   display: grid;
   grid-template: 1fr 60px repeat(7, 1fr) / 60fr 35% 10% 35% 40fr;
   width: 90vw;
+  /* height and min height are a good combo */
   height: 85vh;
+  min-height: 85vh;
   margin: 50px 50px;
   /* this border style is dooope */
   border: 5px groove rgb(11, 45, 102);
@@ -108,6 +110,9 @@ body {
   /* this changes where the grid items are in the grid box */
   justify-items: center; /*horizontal*/
   align-items: center; /*vertical*/
+  /* test */
+  flex: 1 1 350px;
+  padding: 0;
 }
 
 .linksdiv {

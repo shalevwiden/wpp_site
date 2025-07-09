@@ -101,6 +101,7 @@ body {
   grid-template: 1fr 60px repeat(7, 1fr) / 60fr 35% 10% 35% 40fr;
   width: 90vw;
   height: 85vh;
+  min-height: 550px;
   margin: 50px 50px;
   /* this border style is dooope */
   border: 5px groove rgb(11, 45, 102);
@@ -108,6 +109,7 @@ body {
   /* this changes where the grid items are in the grid box */
   justify-items: center; /*horizontal*/
   align-items: center; /*vertical*/
+  flex: 1 1;
 }
 
 .linksdiv {
@@ -206,6 +208,9 @@ span.gradtext {
     grid-template: 1fr 120px 90px repeat(9, 1fr) / 50fr 70% 50fr;
     width: 90vw;
     height: 85vh;
+    /* min height is great to have */
+    min-height: 550px;
+
     margin: 50px 50px;
     /* this border style is dooope */
     border: 5px groove rgb(11, 45, 102);
