@@ -64,10 +64,23 @@ body {
   font-weight: bold;
   font-size: 16px;
 }
+
+#websitestructure li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(255, 219, 212);
+}
 #aboutli {
   margin-left: 16px;
 }
 
+#aboutli:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(255, 219, 212);
+}
 @media screen and (min-width: 850px) and (max-width: 975px) {
   #navbar {
     display: flex;
@@ -151,6 +164,14 @@ body {
   }
   #aboutli {
     margin-left: 10px;
+  }
+
+  #websitestructure li a:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  #aboutli:hover {
+    text-decoration-thickness: 2px;
   }
 }
 

@@ -63,8 +63,22 @@ body {
   font-weight: bold;
   font-size: 16px;
 }
+
+#websitestructure li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgb(255, 219, 212);
+}
 #aboutli {
   margin-left: 16px;
+}
+
+#aboutli:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgb(255, 219, 212);
 }
 
 @media screen and (min-width: 850px) and (max-width: 975px) {
